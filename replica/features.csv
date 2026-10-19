@@ -1,0 +1,58 @@
+feature,area,priority,original,clone,notes
+Public home page with pitch,website,must,yes,no,everything is free
+Rides hub with how-to and live-link explainer,website,must,yes,no,
+City pages for rides and clubs,website,should,yes,no,generated from data for SEO
+Public ride detail page,website,must,yes,no,
+Clubs directory grouped by city,website,must,yes,no,
+Club detail page,website,should,yes,no,
+Feature pages (Mileage/Expenses/Health),website,should,yes,no,
+FAQ and help,website,should,yes,no,
+Terms and privacy pages,website,must,yes,no,write original text; DPDP Act consent
+Sign up and log in (phone OTP + email + Google),account,must,yes,no,
+Add motorcycles to a garage (many bikes),garage,must,yes,no,
+Log a fill-up (amount litres rate odometer full tank),mileage,must,yes,no,
+Rolling real mileage per bike,mileage,must,yes,no,
+Log an expense with categories,expenses,must,yes,no,
+Parts and labour split on repairs,expenses,should,yes,no,
+Attach expense to workshop or ride,expenses,could,yes,no,
+Offline logging that syncs later,expenses,must,yes,no,client-generated ids
+Cost per km (free for everyone),analysis,must,yes,no,original gates this; we do not
+Parts tracker Good / Due Soon / Overdue (free),health,must,yes,no,original gates this; we do not
+Default intervals plus custom interval per part per bike,health,must,yes,no,
+Parts catalogue,health,should,yes,no,start with about 40 original entries
+Paper vault RC insurance PUC with expiry reminders,papers,must,yes,no,
+Service due by distance or time,health,should,yes,no,
+Push and email reminders,notifications,must,yes,no,
+Track a ride (route distance speed stops),rides,must,yes,no,web is foreground-only until native app
+Share live link viewable without account,rides,must,yes,no,expiry and revoke
+Ride history with moving vs stopped time,rides,should,yes,no,
+Post a public ride (breakfast day multi-day),rides,must,yes,no,
+Ask to join and organiser approves,rides,must,yes,no,
+Create or join a riding club,clubs,should,yes,no,
+Club ride posting and member roster,clubs,should,yes,no,
+GROUP RIDE ROOM: all riders on one live map,group,must,no,no,core differentiator
+Invite friends by link QR code or ride code,group,must,no,no,
+Join as rider (account) or as watcher (no account),group,must,no,no,
+Ride roles: leader sweep rider watcher,group,should,no,no,
+Regroup point and "wait for me" alert,group,should,no,no,
+SOS / breakdown alert to group and emergency contacts,group,must,no,no,best-effort; not a safety guarantee
+Quick status buttons (fuel stop tea break issue),group,should,no,no,
+Distance between riders and lagging-rider warning,group,could,no,no,
+Shared trip expenses split between riders,group,should,no,no,
+Route planner with waypoints and fuel stops,planning,should,no,no,
+GPX import and export,planning,should,no,no,
+Trip cost estimate before you go,planning,could,no,no,uses your real cost per km
+Privacy controls: precise or approximate location and auto-expire,privacy,must,no,no,
+Fuel price and mileage trend charts,analysis,should,no,no,
+Tyre set and chain life by bike,health,could,no,no,
+Service book with receipts and photos,health,should,no,no,
+Export all data as CSV,account,should,no,no,
+Delete my account and data,account,must,no,no,DPDP Act
+Badges and ride milestones,engagement,could,no,no,replaces paid Miles economy
+Crowd-learned part life across all riders,health,could,yes,no,only after enough users
+Premium plan and payments,payments,skip,yes,skip,everything is free; no payment code
+Miles economy to unlock features,miles,skip,yes,skip,nothing to unlock
+Ads and sponsored cards,monetisation,skip,yes,skip,not in this version
+Native iOS and Android apps,platform,could,yes,no,PWA first; Expo later for background GPS
+Brand identity logo name and imagery,brand,skip,yes,skip,must be original
+Their user base and club network,network,skip,yes,skip,not clonable

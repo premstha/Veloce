@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Veloce",
+    "description": "Free motorcycle trip and cost tracker with live group ride room",
+    "short_description": "Track bike costs, see your group on one map. 100% free.",
+    "keywords": [
+      "motorcycle",
+      "bike tracker",
+      "ride tracking",
+      "fuel log",
+      "group ride",
+      "motorcycle maintenance",
+      "cost per km",
+      "bike expenses",
+      "riding club",
+      "mototourism"
+    ],
+    "category": "Navigation",
+    "subcategory": "Sports"
+  },
+  "avoid": {
+    "names": ["RoadBee", "RBX Autoworld"],
+    "domains": ["roadbee.in"],
+    "colors": ["#f7b731"]
+  },
+  "screenshots": {
+    "iphone": [
+      {
+        "id": "1",
+        "filename": "screenshot-iphone-1.png",
+        "description": "Group Ride Room - Live map showing 6 riders"
+      },
+      {
+        "id": "2",
+        "filename": "screenshot-iphone-2.png",
+        "description": "Cost per km analytics - Free breakdown"
+      },
+      {
+        "id": "3",
+        "filename": "screenshot-iphone-3.png",
+        "description": "Fuel logging form"
+      },
+      {
+        "id": "4",
+        "filename": "screenshot-iphone-4.png",
+        "description": "Garage - Multiple motorcycles"
+      }
+    ],
+    "android": [
+      {
+        "id": "1",
+        "filename": "screenshot-android-1.png",
+        "description": "Group Ride Room - Live map"
+      },
+      {
+        "id": "2",
+        "filename": "screenshot-android-2.png",
+        "description": "Cost analytics dashboard"
+      }
+    ]
+  },
+  "review_notes": {
+    "demo_account": "+91-9876543210 (test OTP: 123456)",
+    "testing_steps": [
+      "1. Sign up with phone OTP",
+      "2. Add a motorcycle (Royal Enfield Himalayan)",
+      "3. Log a fuel entry (₹500, 10L, odometer 12500)",
+      "4. Open Group Ride Room",
+      "5. Show cost analytics"
+    ],
+    "notes": "All features are free. No payment required. Group Ride Room works with simulated riders."
+  },
+  "privacy": {
+    "data_collected": [
+      "Phone number (auth)",
+      "Motorcycle details (make, model, odometer)",
+      "Fuel and expense logs",
+      "Location during active group rides"
+    ],
+    "data_usage": "Location is shared only with group participants during a ride. Data is deleted 24 hours after ride ends.",
+    "third_party": "Supabase (auth, database), Mapbox (maps)",
+    "contact": "support@veloce.app",
+    "privacy_url": "https://veloce.app/privacy"
+  },
+  "age_rating": "4+",
+  "pricing": {
+    "free": true,
+    "price_tier": "0",
+    "currency": "INR"
+  }
+}

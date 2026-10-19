@@ -1,0 +1,42 @@
+{
+  "name": "Veloce",
+  "description": "Free motorcycle trip and cost tracker with live group ride room",
+  "palette": {
+    "bg": "#0a0a0f",
+    "surface": "#12121a",
+    "border": "#1e1e26",
+    "border-input": "#2a2a3a",
+    "text": "#e8e8f0",
+    "text-muted": "#8888a0",
+    "accent": "#06d6a0",
+    "on-accent": "#0a0a0f",
+    "danger": "#ff5252",
+    "success": "#4ade80",
+    "warning": "#f59e0b"
+  },
+  "voice": {
+    "adjectives": ["Direct", "Practical", "Grounded"],
+    "examples": {
+      "do": [
+        "Track your real costs",
+        "See everyone on the map",
+        "Export your data anytime",
+        "Free. No gates.",
+        "Log offline, sync later"
+      ],
+      "dont": [
+        "Unlock insights with Miles",
+        "Premium group features",
+        "Your ride, our platform",
+        "Freemium model",
+        "Always connected experience"
+      ]
+    }
+  },
+  "avoid": {
+    "names": ["RoadBee", "RBX Autoworld"],
+    "domains": ["roadbee.in"],
+    "colors": ["#f7b731"]
+  },
+  "positioning": "For motorcycle riders and touring groups who hate subscription paywalls and fragmented tracking links, Veloce gives you full bike cost analytics and a real-time group ride room on one live map — 100% free."
+}

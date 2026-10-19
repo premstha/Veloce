@@ -1,0 +1,13 @@
+{
+  "$schema": "https://drizzle-team.github.io/drizzle-kit-schemas/json",
+  "schema": "./db/schema.ts",
+  "out": "./drizzle",
+  "driver": "pg",
+  "dbCredentials": {
+    "host": "db.example.com",
+    "port": 5432,
+    "user": "postgres",
+    "database": "roadbee",
+    "password": "password"
+  }
+}
